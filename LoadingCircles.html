@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>GSAP Ease</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script> 
+<style>
+body{
+    margin: 0;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+    
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0,0,46.5,42.0619" class="anime" style="position: absolute;top:0;left:0;bottom:0;right:0;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto"><g transform="translate(-217.25,-159.812)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#5221ff" stroke-width="1.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M229.79178,200.29339c-7.02291,-3.80742 -11.79178,-11.24349 -11.79178,-19.79339c0,-8.65949 4.8919,-16.17641 12.06294,-19.938"/><path d="M251.86006,161.07418c6.66452,3.90578 11.13994,11.14315 11.13994,19.42582c0,9.22297 -5.54926,17.14985 -13.49106,20.62389"/></g></g></svg>
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0,0,46.5,42.0619" class="wierd" style="position: absolute;top:0;left:0;bottom:0;right:0;margin-left:auto;margin-top:auto;margin-right:auto;margin-bottom:auto"><g transform="translate(-217.25,-159.812)"><g data-paper-data="{&quot;isPaintingLayer&quot;:true}" fill="none" fill-rule="nonzero" stroke="#5221ff" stroke-width="1.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" style="mix-blend-mode: normal"><path d="M229.79178,200.29339c-7.02291,-3.80742 -11.79178,-11.24349 -11.79178,-19.79339c0,-8.65949 4.8919,-16.17641 12.06294,-19.938"/><path d="M251.86006,161.07418c6.66452,3.90578 11.13994,11.14315 11.13994,19.42582c0,9.22297 -5.54926,17.14985 -13.49106,20.62389"/></g></g></svg>
+<script>
+ var man= gsap.timeline();
+ var man2 = gsap.timeline();
+ man.to(".anime",{rotation:360,duration:4,yoyo:true,repeat:3})
+ man2.to(".wierd",{rotation:-360,duration:4,yoyo:true,repeat:3})
+ 
+</script>
+</body>
+
+
+</html>
